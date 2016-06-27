@@ -1,0 +1,93 @@
+/* YOUR STYLING HERE */
+.tweet{
+  margin: auto;
+  margin-top: 2px;
+  width: 80%;
+  border: 1px solid black;
+  padding: 5px;
+  background-color: $light-grey;
+
+}
+
+.profile_image{
+  float: left;
+  height: 50px;
+  width: 50px;
+  border-radius: 5px;
+  margin-right: 3px;
+}
+
+.tweet_header{
+  display: block;
+  font-family: Helvetica;
+  text-align: left;
+  font-size: 14px;
+}
+
+.name{
+  font-weight: bold;
+}
+
+.usrname{
+  color: $grey;
+  margin-left: 2px;
+}
+
+.timestamp{
+  margin-left: 2px;
+  color: $grey;
+}
+
+.content{
+  display: block;
+  margin-left: 50px;
+}
+
+.text{
+  font-size: 16px;
+  font-family: Helvetica;
+  text-align: left;
+  display: block;
+}
+
+.media{
+  display: block;
+}
+
+.media_image{
+  width: 90%;
+  position: relative;
+  display: block;
+  margin-top: 5px;
+}
+
+.tweet_footer{
+  display: table;
+  width: 100%;
+  font-size: 12px;
+  padding-top: 1px;
+}
+
+.reply_button_container{
+  display: inline-block;
+  position: relative;
+  width: 80px;
+}
+
+.retweet_button_container{
+  display: inline-block;
+  width: 80px;
+}
+
+.like_button_container{
+  display: inline-block;
+  width: 80px;
+}
+
+.liked{
+  color: $red;
+}
+
+.retweeted{
+  color: $green;
+}
